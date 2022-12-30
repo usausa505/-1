@@ -72,12 +72,27 @@ footer{
   height: 50px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
   header{
     width: 100%;
   }
 
   main{
-    flex-direction: column;
+    display: block;
+    width:  100%;
+    margin: 50px auto;
+  }
+
+  .box{
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .box:last-child {
+    margin: auto;
+  }
+
+  .img1{
+    height: 150px;
   }
 }
